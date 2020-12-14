@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA012A08256E8431002A9E68 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA012A07256E8431002A9E68 /* ViewController2.swift */; };
+		FA012A0E257366EE002A9E68 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA012A0B257366ED002A9E68 /* dog.jpg */; };
+		FA012A10257367AB002A9E68 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA012A0F257367AB002A9E68 /* cat.jpeg */; };
+		FA012A12257367B3002A9E68 /* seal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA012A11257367B3002A9E68 /* seal.jpeg */; };
 		FA220DB7256BF07F00093999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220DB6256BF07F00093999 /* AppDelegate.swift */; };
 		FA220DB9256BF07F00093999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220DB8256BF07F00093999 /* SceneDelegate.swift */; };
 		FA220DBB256BF07F00093999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220DBA256BF07F00093999 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA012A07256E8431002A9E68 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		FA012A0B257366ED002A9E68 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		FA012A0F257367AB002A9E68 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		FA012A11257367B3002A9E68 /* seal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seal.jpeg; sourceTree = "<group>"; };
 		FA220DB3256BF07F00093999 /* SlideShowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA220DB6256BF07F00093999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA220DB8256BF07F00093999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +50,9 @@
 			children = (
 				FA220DB5256BF07F00093999 /* SlideShowApp */,
 				FA220DB4256BF07F00093999 /* Products */,
+				FA012A0B257366ED002A9E68 /* dog.jpg */,
+				FA012A0F257367AB002A9E68 /* cat.jpeg */,
+				FA012A11257367B3002A9E68 /* seal.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +70,7 @@
 				FA220DB6256BF07F00093999 /* AppDelegate.swift */,
 				FA220DB8256BF07F00093999 /* SceneDelegate.swift */,
 				FA220DBA256BF07F00093999 /* ViewController.swift */,
+				FA012A07256E8431002A9E68 /* ViewController2.swift */,
 				FA220DBC256BF07F00093999 /* Main.storyboard */,
 				FA220DBF256BF08200093999 /* Assets.xcassets */,
 				FA220DC1256BF08200093999 /* LaunchScreen.storyboard */,
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA012A10257367AB002A9E68 /* cat.jpeg in Resources */,
 				FA220DC3256BF08200093999 /* LaunchScreen.storyboard in Resources */,
 				FA220DC0256BF08200093999 /* Assets.xcassets in Resources */,
 				FA220DBE256BF07F00093999 /* Main.storyboard in Resources */,
+				FA012A12257367B3002A9E68 /* seal.jpeg in Resources */,
+				FA012A0E257366EE002A9E68 /* dog.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA220DBB256BF07F00093999 /* ViewController.swift in Sources */,
+				FA012A08256E8431002A9E68 /* ViewController2.swift in Sources */,
 				FA220DB7256BF07F00093999 /* AppDelegate.swift in Sources */,
 				FA220DB9256BF07F00093999 /* SceneDelegate.swift in Sources */,
 			);
