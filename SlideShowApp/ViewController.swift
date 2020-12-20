@@ -17,9 +17,9 @@ class ViewController: UIViewController {
     var nowImage:Int = 0
     
     var animals:[UIImage] = [
-        UIImage(named: "cat")!,
-        UIImage(named: "seal")!,
-        UIImage(named: "dog")!
+        UIImage(named: "cat.jpeg")!,
+        UIImage(named: "seal.jpeg")!,
+        UIImage(named: "dog.jpg")!
     ]
     
     var timer:Timer!
