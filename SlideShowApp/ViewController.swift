@@ -58,14 +58,14 @@ class ViewController: UIViewController {
     
     
     @IBAction func startStop(_ sender: Any) {
-        if timer == nil {
-            timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(slideImage(_timer:)), userInfo: nil, repeats: true)
+        if self.timer == nil {
+            self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(slideImage(_timer:)), userInfo: nil, repeats: true)
             slideButton.setTitle("停止", for: .normal)
             backButton.isEnabled = false
             nextButton.isEnabled = false
         }else{
-            timer.invalidate()
-            timer = nil
+            self.timer.invalidate()
+            self.timer = nil
             slideButton.setTitle("再生", for: .normal)
             backButton.isEnabled = true
             nextButton.isEnabled = true
@@ -82,6 +82,14 @@ class ViewController: UIViewController {
         let viewController2: ViewController2 = segue.destination as! ViewController2
         
         viewController2.Image = animals[nowImage]
+        
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+            slideButton.setTitle("再生", for: .normal)
+            backButton.isEnabled = true
+            nextButton.isEnabled = true
+        }
     }
     
     @IBAction func unwind(_ unwindSegue: UIStoryboardSegue) {
